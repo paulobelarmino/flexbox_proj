@@ -1,0 +1,273 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Open Sans", sans-serif ;
+}
+
+ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+div img{
+    display: block;
+    width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+}
+
+header{
+    background-color: rgb(2, 2, 47);
+    height: 100px;
+    display: flex;
+    align-items: center;   
+    color: white; 
+}   
+
+header .list-items{
+    justify-content: space-between;
+    display: flex;
+    max-width: 260px;
+    width: 100%;  
+    font-weight: bold; 
+}
+
+.list-items li a{
+    color: white;
+   
+}
+
+.apresentacao{
+    height: 60vh;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.apresentacao .text-apresentacao{
+    min-height: 200px;
+}
+
+.text-apresentacao h1{
+    color: rgb(2, 2, 47);
+    font-size: 50px;
+    margin-bottom: 22px;
+
+}
+
+.btn{
+    background-color: rgb(2, 2, 47);
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+    display: block;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    font-size: 20px;
+    font-weight: bold;
+       
+}
+
+.quemsomos{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quemsomos h2{
+    font-size: 30px;
+    color: rgb(2, 2, 47);
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.quemsomos h2::before{
+    content:"";
+    height: 40px;
+    width: 5px;
+    margin-right: 5px;
+    background-color: rgb(2, 2, 47);
+    margin-left: 40px;
+    position: relative;
+
+}
+
+.quemsomos p{
+    margin-left: 40px;
+    margin-bottom: 15px;
+    width: 90%;
+}
+
+.quemsomos img{
+    min-width: 500px;
+}
+
+.externo{
+    background-color: rgb(2, 2, 47);
+    width: 100%;
+    padding: 100px 0;
+}
+
+#servicos{
+    flex-direction: column;
+}
+
+.list-servicos{
+    display: flex;
+   justify-content: space-between;
+}
+
+.list-servicos .item-servico{
+    text-align: center;
+    align-items: center;
+    
+}
+
+#servicos h2 {
+    color: white;
+    margin-top: -70px;
+    font-size: 30px;
+}
+
+.item-servico p {
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    align-items: baseline;
+}
+
+.item-servico a{
+    background-color: white;
+    text-decoration: none;
+    color: rgb(2, 2, 47);
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;    
+
+}
+
+.ultimo-item a{
+    background-color: white;
+    text-decoration: none;
+    color: rgb(2, 2, 47);
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;    
+
+}
+.ultimo-item p{
+    color: white;
+    margin-top: 13px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    align-items: baseline;
+}
+
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: 60px;
+    margin-bottom: 0;   
+}
+
+#planos h2{
+    font-size: 40px;
+}
+
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+
+}
+
+.item-plano{
+    flex: 1;
+    border: 5px solid rgb(2, 2, 47);
+    margin-right: 20px;
+    max-width: 240px;
+}
+
+.item-plano .btn{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item-plano h3{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.item-plano h3::after{
+    content: "";
+    background-color: rgb(2, 2, 47);
+    height: 4px;
+    width: 190px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.item-plano ul{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.item-plano ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item-plano ul li::before{
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: rgb(2, 2, 47);
+    margin-right: 8px;
+    
+}
+
+footer{
+    background-color: rgb(2, 2, 47);
+    display: flex;
+    height: 70px;
+    width: auto;
+    align-items: center;
+    color: white;   
+}
+
+footer .footer{
+    justify-content: space-between;
+}
+
