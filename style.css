@@ -271,3 +271,103 @@ footer .footer{
     justify-content: space-between;
 }
 
+/* mobile breakpoints */
+@media(max-width: 992px){
+    .flex-container{
+        flex-direction: column;
+       
+    }  
+    
+    .flex-container h1{
+        justify-content: center;
+        margin: auto;
+    }
+
+    header{
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    
+    header .list-items{
+        justify-content: space-between;
+        display:flex ;
+        flex-direction: row;
+        margin-top: 10px;
+    }
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        margin-left: 40px;
+        
+    
+    }
+    
+    .apresentacao .text-apresentacao{
+        width: 100%;
+    }
+
+    .quemsomos img{
+        min-width: 320px;
+        max-width: auto;
+        margin-top: 20px;
+    }
+
+    .apresentacao img{
+        min-width: auto;
+        max-width: auto;
+    }
+
+    .list-servicos{
+       flex-direction: column;
+    }
+
+    .item-servico{
+        width: auto;
+        margin: auto;
+        
+    }
+
+    .item-servico img{
+        margin-top: 15px;
+        
+    }
+
+    .ultimo-item{
+        width: auto;
+        margin: auto;
+    }
+
+    #planos h2{
+        margin-left: 40px;
+    }  
+    
+    .list-planos{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list-planos .item-plano{
+        margin: auto;
+        margin-left: 50px;
+        max-width: 90%;
+        width: 100%;
+    }
+
+    .externo{
+        background-color: rgb(2, 2, 47);
+        width: 100%;
+        padding: 100px 0;
+        margin-left: 30px;
+    }
+
+    .externo h2{
+        margin-left: 40px;
+    }
+
+    footer{
+        margin-left: 50px;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
